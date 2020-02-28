@@ -50,7 +50,7 @@ express --view=pug myapp
 如果当前中间件没有终结请求-响应循环，则必须调用 next() 方法将控制权交给下一个中间件，否则请求就会挂起。
 
 中间件函数被调用时的组成部分：
-![中间件函数被调用时的组成部分](./pic/express-mw.png)
+![中间件函数被调用时的组成部分](https://raw.githubusercontent.com/FE-Knowledge-System/FEKS/master/system/frameworks/pic/express-mw.png)
 
 Express 应用可使用如下几种中间件：
 * 应用级中间件

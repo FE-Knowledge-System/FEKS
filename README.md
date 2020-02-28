@@ -169,3 +169,6 @@
 
 欢迎其他同学积极参与，完善、分享自己的知识体系内容。
 
+## NOTICE
+* 图片请保持到对应 markdown 文件目录下，并采用 `https://raw.githubusercontent.com/FE-Knowledge-System/FEKS/master/图片文件在项目中的相对路径` 格式的路径方式来使用图片
+
