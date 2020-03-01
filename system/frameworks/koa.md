@@ -148,7 +148,7 @@ app.use(route.get('/redirect', redirect));
 多个中间件会形成一个栈结构（middle stack），以"先进后出"（first-in-last-out）的顺序执行。
 
 中间件的执行很像一个洋葱，但并不是一层一层的执行，而是以 next 为分界，先执行本层中 next 以前的部分，当下一层中间件执行完后，再执行本层 next 以后的部分。
-![洋葱模型](https://raw.githubusercontent.com/FE-Knowledge-System/FEKS/master/system/frameworks/pic/onion-model.jpg)
+![洋葱模型](https://raw.githubusercontent.com/FE-Knowledge-System/FEKS/master/system/frameworks/pic/onion-model.png)
 
 ### 异步中间件
 如果有异步操作（比如读取数据库），中间件就必须写成 async 函数。
