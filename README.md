@@ -77,7 +77,7 @@
     - stream
     - [Event Loop](./basic/nodejs/eventloop.md)
     - Commonjs 规范
-  + 浏览器
+  + 浏览器环境
     - 工作机制
     - 渲染流程
     - DNS
@@ -85,6 +85,7 @@
     - HTTP
     - 安全
     - 浏览器引擎
+    - [CDN](./basic/browser/cdn.md)
 * 系统环境
   + 操作系统
     - Linux 系统
