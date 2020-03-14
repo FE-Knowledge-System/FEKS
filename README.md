@@ -72,6 +72,7 @@
     - 异步
     - ES6+
     - 模块化
+    - [正则表达式](./basic/javascript/regexp.md)
   + Nodejs
     - 文件操作
     - stream
